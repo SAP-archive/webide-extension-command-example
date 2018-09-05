@@ -1,0 +1,17 @@
+{
+	"name": "@sap-webide/webide-extension-command-example",
+	"title": "webide-extension-command-example",
+	"version": "0.1.0",
+	"description": "",
+	"homepage": "",
+	"icon": "",
+	"scripts": {
+		"build": "node ./scripts/bundle.js"
+	},
+	"devDependencies": {
+		"@sap-webide/webide-client-tools": "2.3.4"
+	},
+	"bundledPlugins": {
+		"helloworld": "file:helloworld"
+	}
+}

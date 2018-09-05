@@ -1,0 +1,4 @@
+{
+	"plugins": ["@sap/webide-feature"],
+	"extends": "plugin:@sap/webide-feature/recommended"
+}
