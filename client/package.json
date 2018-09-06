@@ -6,10 +6,12 @@
 	"homepage": "",
 	"icon": "",
 	"scripts": {
-		"build": "node ./scripts/bundle.js"
+		"build": "node ./scripts/bundle.js && npm run copy",
+		"copy": "shx cp ../README.md dist/ && cp ../LICENSE dist/ && cp ../NOTICE.txt dis--help"
 	},
 	"devDependencies": {
-		"@sap-webide/webide-client-tools": "2.3.4"
+		"@sap-webide/webide-client-tools": "2.3.4",
+		"shx": "^0.3.2"
 	},
 	"bundledPlugins": {
 		"helloworld": "file:helloworld"
