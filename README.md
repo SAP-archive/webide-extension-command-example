@@ -27,7 +27,7 @@ There are currently no known issues.
 
 ## How to obtain support
 
-This project is not expecting any changes and therefore, no support will be provided. This example works out of the box.
+This project is provided "as-is" and so no support is provided.
 
 ## License
 
