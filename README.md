@@ -14,7 +14,7 @@ For running this extension example, you would need the following:
 
 ## Download and Installation
 
-Open SAP Web IDE, navigate to the **Development** perspective and clone the webide-extension-command-example extension project. Once you have cloned it, right-click the project and choose **Run** > **Run As SAP Web IDE Extension**.
+Open SAP Web IDE, navigate to the **Development** perspective and [clone](https://help.sap.com/viewer/825270ffffe74d9f988a0f0066ad59f0/CF/en-US/3c7e5f3accbd48d7ab5229bf503317c4.html?q=clone) the webide-extension-command-example extension project. Once you have cloned it, right-click the project and choose **Run** > **Run As SAP Web IDE Extension**.
 A new tab called **Debug Mode** opens with the new functionality applied.
 
 ## Configuration
