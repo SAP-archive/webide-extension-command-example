@@ -7,6 +7,7 @@ This is an example project of how a SAP WebIDE extension project should look lik
 ## Requirements
 
 * Have an account on SAP Cloud Platform
+* Have a subscription to the SAP WebIDE Full Stack Service
 
 ## Download and Installation
 
