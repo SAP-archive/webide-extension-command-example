@@ -1,30 +1,30 @@
 ## Description
 
-This is an example project of how a SAP WebIDE extension project should look like and contains build, packaging and deployment instructions for a Web IDE extension. Please notice that it complaints only for Web IDE on SAP Cloud Platform.
+This is an example project of how a SAP Web IDE extension project should look. This extension project contains instructions on how to build, package, and deploy an SAP Web IDE extension. Please note that is relevant only for SAP Web IDE on SAP Cloud Platform.
 
-**For detailed description of end-to-end flow for developing and delivering a Web IDE extension, please refer to [this documentation](https://sdk-sapwebide.dispatcher.hana.ondemand.com/index.html#/topic/4a5a02764ba445cc95fafbbed3235d6e)
+**For detailed description of the end-to-end flow for developing and delivering an SAP Web IDE extension, please refer to the [SAP Web IDE SDK](https://sdk-sapwebide.dispatcher.hana.ondemand.com/index.html#/topic/4a5a02764ba445cc95fafbbed3235d6e).
 
 ## Requirements
 
-* Have an account on SAP Cloud Platform
-* Have a subscription to the SAP WebIDE Full Stack Service
+* You have an account on SAP Cloud Platform.
+* You have a subscription to the SAP Web IDE full-stack service.
 
 ## Download and Installation
 
-Open your SAP WebIDE, navigate to the Development perspective and clone this extension. Once you have cloned it, right click on project and choose "Run --> Run As SAP WebIDE Extension".
-A new tab will be opened and the functionallity of this extension will be applied.
+Open SAP Web IDE, navigate to the **Development** perspective and clone the webide-extension-command-example extension project. Once you have cloned it, right-click the project and choose **Run** > **Run As SAP Web IDE Extension**.
+A new tab called **Debug Mode** opens with the new functionality applied.
 
 ## Configuration
 
-This extension is an example of how to extend the WebIDE functionallity. For more elaboration regarding how to add more commands or any other functionality, please see [this documentation](https://sdk-sapwebide.dispatcher.hana.ondemand.com/index.html#/topic/4a5a02764ba445cc95fafbbed3235d6e).
+This extension is an example of how to extend the SAP Web IDE functionallity. For more information about how to add more commands or any other functionality, see [SAP Web IDE SDK](https://sdk-sapwebide.dispatcher.hana.ondemand.com/index.html#/topic/4a5a02764ba445cc95fafbbed3235d6e).
 
 ## Known Issues
 
-There are no know issues at the moment.
+There are currently no known issues.
 
 ## How to obtain support
 
-This project is not expecting any changes and therefore, no support will be provided. This example is working out of the box.
+This project is not expecting any changes and therefore, no support will be provided. This example works out of the box.
 
 ## License
 
