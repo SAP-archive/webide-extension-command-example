@@ -1,6 +1,6 @@
 ## Description
 
-This example contains build, packaging and deployment instructions for Web IDE extension and complaints only for Web IDE on SAP Cloud Platform.
+This is an example project of how a SAP WebIDE extension project should look like and contains build, packaging and deployment instructions for a Web IDE extension. Please notice that it complaints only for Web IDE on SAP Cloud Platform.
 
 **For detailed description of end-to-end flow for developing and delivering a Web IDE extension, please refer to [this documentation](https://sdk-sapwebide.dispatcher.hana.ondemand.com/index.html#/topic/4a5a02764ba445cc95fafbbed3235d6e)
 
