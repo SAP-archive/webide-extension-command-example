@@ -6,8 +6,9 @@ This is an example project of how a SAP Web IDE extension project should look. T
 
 ## Requirements
 
-* You have an account on SAP Cloud Platform.
-* You have a subscription to the SAP Web IDE full-stack service.
+For running this extension example, you would need the following:
+1. You have an account on [SAP Cloud Platform](https://cloudplatform.sap.com/index.html).
+2. You have a subscription to the SAP Web IDE full-stack service.
 
 ## Download and Installation
 
