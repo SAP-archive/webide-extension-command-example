@@ -1,5 +1,3 @@
-# Example Project for Web IDE Command Extension 
-
 ## Description
 
 This example contains build, packaging and deployment instructions for Web IDE extension and complaints only for Web IDE on SAP Cloud Platform.
