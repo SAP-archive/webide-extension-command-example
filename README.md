@@ -4,8 +4,7 @@
 
 This example contains build, packaging and deployment instructions for Web IDE extension and complaints only for Web IDE on SAP Cloud Platform.
 
-**For detailed description of end-to-end flow for developing and delivering a Web IDE extension please refer to ...[Julia to supply link to official documentation]
-
+**For detailed description of end-to-end flow for developing and delivering a Web IDE extension, please refer to ...[Julia to supply link to official documentation]
 
 ## Requirements
 
