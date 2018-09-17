@@ -1,8 +1,10 @@
 ## Description
 
-This is an example project of how a SAP Web IDE extension project should look. This extension project contains instructions on how to build, package, and deploy an SAP Web IDE extension. Please note that is relevant only for SAP Web IDE on SAP Cloud Platform.
+This is a reference SAP Web IDE extension project, providing the recommended structure and layout.
+This SAP Web IDE extension project contains a single plugin to demonstrate the usage of an SAP Web IDE extension project in the context of extending the functionallity of SAP WebIDE full stack etc.
 
-**For detailed description of the end-to-end flow for developing and delivering an SAP Web IDE extension, please refer to the [SAP Web IDE SDK](https://sdk-sapwebide.dispatcher.hana.ondemand.com/index.html#/topic/4a5a02764ba445cc95fafbbed3235d6e).
+**For detailed description of the end-to-end flow for developing (build and package) and delivering (deploy) an SAP Web IDE extension, please refer to the [SAP Web IDE SDK](https://sdk-sapwebide.dispatcher.hana.ondemand.com/index.html#/topic/4a5a02764ba445cc95fafbbed3235d6e).
+**Please note that is relevant only for SAP Web IDE on SAP Cloud Platform.**
 
 ## Requirements
 
