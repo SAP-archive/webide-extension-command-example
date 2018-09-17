@@ -16,7 +16,7 @@ A new tab will be opened and the functionallity of this extension will be applie
 
 ## Configuration
 
-This extension is an example of how to extend the WebIDE functionallity and allow opening a new pop up. For more elaboration regarding how to add more commands or any other functionality, please see [this documentation](https://sdk-sapwebide.dispatcher.hana.ondemand.com/index.html#/topic/4a5a02764ba445cc95fafbbed3235d6e).
+This extension is an example of how to extend the WebIDE functionallity. For more elaboration regarding how to add more commands or any other functionality, please see [this documentation](https://sdk-sapwebide.dispatcher.hana.ondemand.com/index.html#/topic/4a5a02764ba445cc95fafbbed3235d6e).
 
 ## Known Issues
 
