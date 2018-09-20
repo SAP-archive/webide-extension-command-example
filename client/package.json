@@ -2,9 +2,19 @@
 	"name": "@sap-webide/webide-extension-command-example",
 	"title": "webide-extension-command-example",
 	"version": "0.3.0",
-	"description": "",
-	"homepage": "",
-	"icon": "",
+	"description": "Example of SAP Web IDE community extension, which include single hello-world plugin to demonstrate project structure.",
+	"homepage": "https://nextgen.sapappcenter.com/apps/218103#!overview",
+	"icon": "/logo.jpg",
+	"author": {
+		"name": "SAP SE",
+		"email": "webide.devops@exchange.sap.com",
+		"url": "https://sdk-sapwebide.dispatcher.int.sap.hana.ondemand.com/index.html",
+		"icon": "https://d.dam.sap.com/a/mPPUT"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/SAP/webide-extension-command-example"
+	},
 	"scripts": {
 		"build": "node ./scripts/bundle.js && npm run copy",
 		"copy": "shx cp ../README.md dist/ && cp ../LICENSE dist/ && cp ../NOTICE.txt dis--help"
