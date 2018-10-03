@@ -15,6 +15,7 @@
 		"type": "git",
 		"url": "https://github.com/SAP/webide-extension-command-example"
 	},
+	"keywords": ["example", "hello world"],
 	"scripts": {
 		"build": "node ./scripts/bundle.js && npm run copy",
 		"copy": "shx cp ../README.md dist/ && cp ../LICENSE dist/ && cp ../NOTICE.txt dis--help"
