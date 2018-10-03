@@ -4,7 +4,7 @@
 	"version": "0.4.0",
 	"description": "Example of SAP Web IDE community extension, which include single hello-world plugin to demonstrate project structure.",
 	"homepage": "https://nextgen.sapappcenter.com/apps/218103#!overview",
-	"icon": "/logo.jpg",
+	"icon": "logo.jpg",
 	"author": {
 		"name": "SAP SE",
 		"email": "webide.devops@exchange.sap.com",
@@ -15,6 +15,7 @@
 		"type": "git",
 		"url": "https://github.com/SAP/webide-extension-command-example"
 	},
+	"keywords": ["example", "hello world"],
 	"scripts": {
 		"build": "node ./scripts/bundle.js && npm run copy",
 		"copy": "shx cp ../README.md dist/ && cp ../LICENSE dist/ && cp ../NOTICE.txt dis--help"
