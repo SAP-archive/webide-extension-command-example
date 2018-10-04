@@ -1,3 +1,7 @@
+[![CircleCI](https://circleci.com/gh/SAP/webide-extension-command-example.svg?style=svg)](https://circleci.com/gh/SAP/webide-extension-command-example)
+
+# Web IDE reference extension project
+
 ## Description
 
 This is a reference SAP Web IDE extension project, providing the recommended structure and layout.
