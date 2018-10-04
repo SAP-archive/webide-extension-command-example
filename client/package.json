@@ -1,10 +1,10 @@
 {
 	"name": "@sap-webide/webide-extension-command-example",
 	"title": "webide-extension-command-example",
-	"version": "0.4.0",
+	"version": "0.7.0",
 	"description": "Example of SAP Web IDE community extension, which include single hello-world plugin to demonstrate project structure.",
 	"homepage": "https://nextgen.sapappcenter.com/apps/218103#!overview",
-	"icon": "logo.jpg",
+	"icon": "https://github.com/SAP/webide-extension-command-example/blob/master/logo.png?raw=true",
 	"author": {
 		"name": "SAP SE",
 		"email": "webide.devops@exchange.sap.com",
