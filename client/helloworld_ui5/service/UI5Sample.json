@@ -1,0 +1,11 @@
+{
+  "name": "ui5sample",
+  "description": "The UI5 sample service interface",
+  "visibility": "public",
+  "component": "CA-WDE-SMPL",
+  "methods": {
+    "sayHelloInView": {
+      "description": "Display a greeting message in a UI5 view"
+    }
+  }
+}
