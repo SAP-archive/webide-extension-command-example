@@ -1,7 +1,7 @@
 {
-  "name": "sap.webide.example.ui5.plugin",
+  "name": "helloworld_ui5",
   "description": "This is a sample plugin that demonstrates use of ui5",
-  "i18n": "sap.webide.example.ui5.plugin/i18n/i18n",
+  "i18n": "helloworld_ui5/i18n/i18n",
   "requires": {
     "services": [
       "command",
@@ -11,13 +11,13 @@
   "provides": {
     "services": {
       "ui5sample": {
-        "implements": "sap.webide.example.ui5.plugin.service.UI5Sample",
-        "module": "sap.webide.example.ui5.plugin/service/UI5Sample"
+        "implements": "helloworld_ui5.service.UI5Sample",
+        "module": "helloworld_ui5/service/UI5Sample"
       }
     },
 
     "interfaces": {
-      "sap.webide.example.ui5.plugin.service.UI5Sample": "sap.webide.example.ui5.plugin/service/UI5Sample"
+      "sap.webide.example.ui5.plugin.service.UI5Sample": "helloworld_ui5/service/UI5Sample"
     }
   },
   "configures": {
@@ -25,7 +25,7 @@
       "command:commands": [{
         "id": "sap.webide.example.ui5.plugin.helloWorldView",
         "label": "{i18n>command_helloWorldView}",
-        "service": "sap.webide.example.ui5.plugin/command/HelloWorldView",
+        "service": "helloworld_ui5/command/HelloWorldView",
         "available" : true,
         "enabled" : true
       }],

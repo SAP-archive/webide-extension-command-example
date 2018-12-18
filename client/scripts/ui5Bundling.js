@@ -3,8 +3,8 @@ function bundle(baseDir) {
     const preloadBundler = require("@ui5/builder/lib/processors/bundlers/moduleBundler");
 
     const source = new FileSystemAdapter({
-        fsBasePath: "./src/webide-ui5-plugin-example",
-        virBasePath: "/resources/sap/webide/ui5/example/plugin/"
+        fsBasePath: "./helloworld_ui5",
+        virBasePath: "/resources/sap/webide/example/ui5/plugin/"
     });
     const target = new FileSystemAdapter({
         fsBasePath: baseDir,
@@ -22,7 +22,7 @@ function bundle(baseDir) {
                             filters: [
                                 // Includes / excludes need to be defined properly in here
                                 // to only include UI5 modules, not pure AMD modules
-                                "sap/webide/ui5/example/plugin/ui5/"
+                                "sap/webide/example/ui5/plugin/ui5/"
                             ],
                             resolve: false
                         }
