@@ -1,0 +1,58 @@
+{
+  "name": "helloworld_ui5",
+  "description": "This is a sample plugin that demonstrates use of ui5",
+  "i18n": "helloworld_ui5/i18n/i18n",
+  "requires": {
+    "services": [
+      "command",
+      "commandGroup"
+    ]
+  },
+  "provides": {
+    "services": {
+      "ui5sample": {
+        "implements": "helloworld_ui5.service.UI5Sample",
+        "module": "helloworld_ui5/service/UI5Sample"
+      }
+    },
+
+    "interfaces": {
+      "sap.webide.example.ui5.plugin.service.UI5Sample": "helloworld_ui5/service/UI5Sample"
+    }
+  },
+  "configures": {
+    "services": {
+      "command:commands": [{
+        "id": "sap.webide.example.ui5.plugin.helloWorldView",
+        "label": "{i18n>command_helloWorldView}",
+        "service": "helloworld_ui5/command/HelloWorldView",
+        "available" : true,
+        "enabled" : true
+      }],
+
+      "commandGroup:groups": [{
+        "id": "tools.ui5sample",
+        "label": "{i18n>commandgroup_sample}"
+      }, {
+        "id": "tools.ui5sample.helloWorldView"
+      }],
+
+      "commandGroup:items": [{
+        "parent": "tools",
+        "type": "menu",
+        "group": "tools.ui5sample",
+        "prio": 100
+      }, {
+        "parent": "tools.ui5sample",
+        "type": "inline",
+        "group": "tools.ui5sample.helloWorldView",
+        "prio": 10
+      }, {
+        "parent": "tools.ui5sample.helloWorldView",
+        "type": "action",
+        "command": "sap.webide.example.ui5.plugin.helloWorldView",
+        "prio": 10
+      }]
+    }
+  }
+}

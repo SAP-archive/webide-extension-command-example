@@ -15,16 +15,31 @@
 		"type": "git",
 		"url": "https://github.com/SAP/webide-extension-command-example"
 	},
-	"keywords": ["example", "hello world"],
+	"keywords": [
+		"example",
+		"hello world"
+	],
 	"scripts": {
 		"build": "node ./scripts/bundle.js && npm run copy",
 		"copy": "shx cp ../README.md dist/ && cp ../LICENSE dist/ && cp ../NOTICE.txt dis--help"
 	},
 	"devDependencies": {
 		"@sap-webide/webide-client-tools": "2.3.4",
+		"@ui5/fs": "0.2.0",
+		"@ui5/builder": "0.2.5",
 		"shx": "^0.3.2"
 	},
 	"bundledPlugins": {
-		"helloworld": "file:helloworld"
+		"helloworld": "file:helloworld",
+		"helloworld_ui5": "file:helloworld_ui5"
+	},
+	"webidePreloads": {
+		"js": [
+			"config-preload.js",
+			"resources/bundleUI5Resources.js"
+		],
+		"config": [
+			"config-preload.json"
+		]
 	}
 }
