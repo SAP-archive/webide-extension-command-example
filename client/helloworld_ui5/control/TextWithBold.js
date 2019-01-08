@@ -1,6 +1,6 @@
 sap.ui.define([], function () {
 
-    sap.m.Text.extend("sap.webide.example.ui5.plugin.ui5.controls.TextWithBold", {
+    sap.m.Text.extend("sap.webide.helloworld_ui5.plugin.control.TextWithBold", {
         metadata: {
             properties: {
                 "useBoldForText": {
