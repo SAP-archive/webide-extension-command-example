@@ -1,9 +1,9 @@
-sap.ui.jsview("sap.webide.example.ui5.plugin.ui5.view.HelloWorldView", {
+sap.ui.jsview("sap.webide.helloworld_ui5.plugin.view.HelloWorldView", {
 
     // _oContext : undefined,
 
     getControllerName : function() {
-        return "sap.webide.example.ui5.plugin.ui5.view.HelloWorldView";
+        return "sap.webide.helloworld_ui5.plugin.view.HelloWorldView";
     },
 
     createContent: function(oController) {
@@ -15,8 +15,8 @@ sap.ui.jsview("sap.webide.example.ui5.plugin.ui5.view.HelloWorldView", {
         });
         layout.addContent(viewDescription);
 
-        sap.ui.require(["sap/webide/example/ui5/plugin/ui5/controls/TextWithBold"], function() {
-            var textWithBold = new sap.webide.example.ui5.plugin.ui5.controls.TextWithBold({
+        sap.ui.require(["sap/webide/helloworld_ui5/plugin/control/TextWithBold"], function() {
+            var textWithBold = new sap.webide.helloworld_ui5.plugin.control.TextWithBold({
                 text: "Hello World",
                 useBoldForText : true
             });

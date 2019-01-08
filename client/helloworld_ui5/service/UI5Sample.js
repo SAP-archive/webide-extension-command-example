@@ -13,7 +13,7 @@ define({
         // Create a view
         var helloWorldView = sap.ui.view({
             type:sap.ui.core.mvc.ViewType.JS,
-            viewName:"sap.webide.example.ui5.plugin.ui5.view.HelloWorldView"
+            viewName:"sap.webide.helloworld_ui5.plugin.view.HelloWorldView"
         });
 
         // Create cancel button
