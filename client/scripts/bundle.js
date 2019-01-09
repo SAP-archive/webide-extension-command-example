@@ -9,8 +9,8 @@ require('@sap-webide/webide-client-tools').bundling.bundleFeature(pkgPath, {
     }
 }).then(function (bundleObj){
     // Bundle the UI5 resources (views/controllers/controls)
-    var ui5Bundling = require('./ui5Bundling');
-    ui5Bundling.bundle(bundleObj.outDir);
+    var sapui5Bundling = require('./sapui5Bundling');
+    sapui5Bundling.bundle(bundleObj.outDir);
 }).catch(function (e) {
     console.log(e);
     process.exit(1);
