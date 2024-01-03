@@ -1,7 +1,9 @@
-# SAP Web IDE Reference Extension Project
+![](https://img.shields.io/badge/STATUS-NOT%20CURRENTLY%20MAINTAINED-red.svg?longCache=true&style=flat)
 
-[![CircleCI](https://circleci.com/gh/SAP/webide-extension-command-example.svg?style=svg)](https://circleci.com/gh/SAP/webide-extension-command-example)
-[![REUSE status](https://api.reuse.software/badge/github.com/SAP/webide-extension-command-example)](https://api.reuse.software/info/github.com/SAP/webide-extension-command-example)
+# Important Notice
+This public repository is read-only and no longer maintained.
+
+# SAP Web IDE Reference Extension Project
 
 ## Description
 
